@@ -1,38 +1,94 @@
 html
 {
-    background-color: #e8f0eb;
+    background-color: #67baf686;
 }
 #container
 {
     width: 80%;
     height: 1000px;
-    background-color: #dad7cd;
+    background-color: #bbe6ff;
+    border: 3px solid #001233;
     border-radius: 10px;
     margin: auto;
 }
+a{
+    text-decoration: none;
+}
 img
 {
-    width: 40vh;
+    width: 30vh;
     height: 40vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    margin: auto;
     transition: all 0.75s;
 }
 img:hover{
     padding: 10px;
-    border: 2px solid #003566;
+    border: 2px solid #001233;
+    margin-top: 10px;
 }
 #content
 {
     width: 80em;
-    height: 40em;
+    height: 35em;
     text-align: center;
     border-radius: 10px;
     margin: auto;
     margin-top: 10px;
     background-color: #fae4ea8e;
-    border: 1px solid #f4acb7;
 }
+.container {
+    position: flex;
+    /* Set the container's height to a specific value or use other styles as needed */
+  }
+  
+  .social-icons {
+    position: absolute;
+    bottom: 10px;
+    left: 900px;
+    /* You can also add left, right, and margin properties to adjust the positioning */
+  }
+  
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: rgb(218, 80, 103);
+    color: white;
+  }
+  .social-icons i{
+    color: white;
+    position: absolute;
+  }
+  .social-icons i{
+    position: absolute;
+    bottom: -13px;
+    left: 900px;
+  }
+  i :hover{
+    opacity: 0.7;
+  }
